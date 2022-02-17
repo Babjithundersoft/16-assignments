@@ -1,0 +1,25 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int arr[]={14,16,18,24,10};
+    int i,n,max=0,min=0;
+    n=sizeof (arr)/sizeof (arr[0]);
+    printf("size of given array %d \n",n);
+    for(i=0;i<n;i++)
+    {
+        if(arr[i]>max)
+        max=arr[i];
+        else if (arr[i]<max){
+        min<max;
+        min=arr[i];
+        }
+
+    }
+        printf("value of max %d\n",max);
+        printf("minimum value of given array %d",min);
+
+
+    return 0;
+}
